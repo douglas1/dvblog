@@ -1,0 +1,18 @@
+baseurl = "/"
+title = "My Development Blog"
+theme = "ghostwriter"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "My Development Blog"
+    description = "A place for my notes and findings"
+    github = "https://github.com/douglas1"
+    twitter = "https://twitter.com/douglas11825"
+    email = "douglas.crowder@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+    post = "/:filename/"
